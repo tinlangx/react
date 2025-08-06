@@ -1,17 +1,17 @@
 import React from 'react'
-import "./style.css"
+import "./style.css";
 
 const CardItem = (props) => {
 
-  const { name, learningClass, slogan } = props;
+  const { name, learningclass, slogan } = props;
 
   return (
     <div className='card-item'>
       <p>Tôi tên: {name}</p>
-      <p>Học lớp: {learningClass}</p>
+      <p>Học lớp: {learningclass}</p>
       <p>{slogan}</p>
     </div>
-  )
-}
+  );
+};
 
-export default CardItem
+export default CardItem;
